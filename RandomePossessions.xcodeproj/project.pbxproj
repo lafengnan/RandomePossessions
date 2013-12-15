@@ -10,6 +10,7 @@
 		8F105B1C185D8F6000051EE0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F105B1B185D8F6000051EE0 /* Foundation.framework */; };
 		8F105B1F185D8F6000051EE0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F105B1E185D8F6000051EE0 /* main.m */; };
 		8F105B23185D8F6100051EE0 /* RandomePossessions.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8F105B22185D8F6100051EE0 /* RandomePossessions.1 */; };
+		8FFF5EA2185DA2BE0090BA63 /* Possession.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FFF5EA1185DA2BE0090BA63 /* Possession.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		8F105B1E185D8F6000051EE0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8F105B21185D8F6000051EE0 /* RandomePossessions-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RandomePossessions-Prefix.pch"; sourceTree = "<group>"; };
 		8F105B22185D8F6100051EE0 /* RandomePossessions.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = RandomePossessions.1; sourceTree = "<group>"; };
+		8FFF5EA0185DA2BE0090BA63 /* Possession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Possession.h; sourceTree = "<group>"; };
+		8FFF5EA1185DA2BE0090BA63 /* Possession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Possession.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +77,8 @@
 			isa = PBXGroup;
 			children = (
 				8F105B1E185D8F6000051EE0 /* main.m */,
+				8FFF5EA0185DA2BE0090BA63 /* Possession.h */,
+				8FFF5EA1185DA2BE0090BA63 /* Possession.m */,
 				8F105B22185D8F6100051EE0 /* RandomePossessions.1 */,
 				8F105B20185D8F6000051EE0 /* Supporting Files */,
 			);
@@ -140,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F105B1F185D8F6000051EE0 /* main.m in Sources */,
+				8FFF5EA2185DA2BE0090BA63 /* Possession.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +257,7 @@
 				8F105B28185D8F6100051EE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
